@@ -1,6 +1,6 @@
-package Project1;
+package Project3;
 
- public class project_1 {
+ public class project_3 {
 	void add(int num1, int num2) {
 		System.out.println("Addition is =" + (num1 + num2));
 	}
@@ -18,7 +18,7 @@ package Project1;
 	}
 
 	public static void main(String[] args) {
-		project_1 calculator1 = new project_1();
+		project_3 calculator1 = new project_3();
 		calculator1.add(10, 10);
 		calculator1.sub(10, 50);
 		calculator1.mult(30, 5);
